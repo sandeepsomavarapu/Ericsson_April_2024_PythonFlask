@@ -47,7 +47,7 @@ OP
 PYTHON
 
 
-the complete 
+the complete python monty circus show
 
 
 
@@ -132,6 +132,9 @@ variables
 			age=123
 keywords
 
+import keyword
+keywrod.kwlist
+
 	['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 
 	'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global',
 	'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return',
@@ -169,6 +172,11 @@ datatypes
 	complex()
 	bool()
 	str()
+	input()
+	id()
+	print()
+	format()
+	type()
 	
 	
 	
@@ -378,7 +386,7 @@ FrozenSET:
 6)set is imuttable,no index concept
 
 
-Dict:key,value
+Dict:key,value(entry)
 
 	{111:"india",112:"aus",113:"US",114:"pak",111:"bharath"}
 Dict:
@@ -397,3 +405,136 @@ def  display():
 	\n --> newline
 	
 	
+functional programming--day-1
+	
+	
+printTuple=lambda *a: (print(x) for x in a)
+printTuple(*data)
+print("*")
+	static  will get one time memory
+	instance will get memory for every object creation
+	
+	class Y
+		a=111
+		m1()
+	
+	class X:
+		a=123
+			self
+		def m1(self,a,b,c...):
+			self.a=a
+		def __init__(self):
+		
+		
+		def __init__(self,a,b,c):
+		
+	
+	obj=X();
+	obj.m1()
+	
+	
+Exception Handling:
+===================	
+		
+		system defined error messages into user friendly error messages
+	1)system defined error messages
+	2)abnormal terrmination
+	
+	
+	1)user friendly error messages
+	2)normal termination
+	
+	
+	abnormal termination
+	
+	
+	1
+	2	error
+	3
+	4
+	5
+	
+	
+	1000
+	
+	syntax errors
+	runtime errors
+	
+	ZeroDivisionError
+	TypeError
+	ValueError
+	FileNotFoundError
+	EOFError
+	
+										BaseException
+	
+try		-->error code 
+except	-->handling code 
+finally -->
+raise	-->
+	
+	Default Exception Handling
+	
+	
+	Exception
+	SystemExit
+	GeneratorExit
+	KI
+	
+	
+	
+	
+	combinations:
+	
+only	try									invalid
+only	except								invalid
+only	else								invalid	
+only	finally								invalid	
+only	try,except							valid	
+only	try,finally							valid	
+		try,except,finally					valid	
+		try,except,else			    		valid	
+		try,except,else,finally     		valid	
+		try,else				    		invalid	
+		try,finally,else		    		invalid	
+		try,except,except					valid
+		try,finally,except					invalid
+		try,except,finally,finally			invalid
+		try,print(),except,finally			invalid
+		try,finally,try,except,finally 		valid
+		try(try,except,finally),except		valid
+		try,except(try,except,finally)		valid
+		try,except,finally(try,except,finally)	valid	valid
+		
+raise	
+	
+		zerodivisionerror-->PVM
+		a=2
+		b=3
+		if a+b<10
+			raise ZeroDivisionError("sum cannot be below 10")
+	
+	age<18
+	
+		raise InvalidAgeException("Yor are not allowed to vote ")
+		
+		
+		
+		
+	class InvalidAgeException(BaseException):
+		
+		def __init__(self,msg):
+			self.msg=msg
+		
+		
+	username   ericsson
+	password   ericsson@123
+		
+		login success
+		
+		invalid credentials
+		
+		
+		
+		
+		
