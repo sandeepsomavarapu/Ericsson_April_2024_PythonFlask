@@ -534,7 +534,77 @@ raise
 		
 		invalid credentials
 		
-		
-		
+Inheritance:	code reusability
+
+
+
+class A
+
+	200 methods
+	
+	
+	
+class B(A):
+	
+pickling		--
+un-pickling
+
+
+compression de-compression
+	
+Regular expressions:
+====================
+
+		pattern=re.compile("ab")
+
+		matcher=pattern.finditer("aabababaabbaababab")
+
+
+match() :looks for starting of target string with given string 
+fullmatch() :looks for entire target string match with given string 
+search() :looks for entire target string match with given string 
+
+
+
+pending with mail,mobile.....
+
+
+Threading :
+
+multi tasking:
+=============
+			executing several tasks simultaniously
+
+	Process Based multitasking	
+					executing several tasks simultaniously where each and every task sepearate independent process
+						ex:running teamns,eclipse,vscode,youtube....
+	Thread Based multitasking
+				executing several tasks simultaniously where each and every task belongs to the same process					
+
+		process-->group of threads/collection ->multi threading
+
+
+MainThread
+
+
+ 3 ways to create thread 
+ 
+	1.with out using any class 
+	2.by extending Thread class 
+	3.without extending Thread class 
+
+
+Mysql:
+=====
+	table -->rows,columns
+	GUI
+	orcl
+				
+				PDBC
+			py  <---> mysql
+
+pip -->python installer packages
+	
+py -m pip install mysql-connector-python
 		
 		
